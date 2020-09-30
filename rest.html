@@ -17,10 +17,13 @@
                         $("form[name=logoutForm]").show();
                         $("form[name=newNodeForm]").show()
                         refreshList();
-                    } else {
+                    }
+                    else 
+                    {
                         alert("Couldn't log you in, please check the user name and password!")
                     }
-                });
+                }
+                );
                 return false; // prevent default action
             });
 
